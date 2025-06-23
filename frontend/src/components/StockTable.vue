@@ -514,9 +514,7 @@ export default {
             this.paragonSubgroups.includes(group.groupName)
           );
         } else if (this.selectedGroup === "Reliance") {
-          filtered = filtered.filter(
-            (group) => group.groupName === "RELIANCE FOOTWEAR"
-          );
+          filtered = filtered.filter((group) => group.groupName === "Reliance");
         } else if (this.selectedGroup === "Florex") {
           filtered = filtered.filter(
             (group) => group.groupName === "Florex (Swastik)"
@@ -664,7 +662,7 @@ export default {
       try {
         const formData = new FormData();
         formData.append("file", this.imageFiles[productName]);
-        formData.append("upload_preset", "shree-enterprises-stock");
+        formData.append("upload_preset", "sbe-stock");
         const response = await fetch(
           "https://api.cloudinary.com/v1_1/dg365ewal/image/upload",
           {

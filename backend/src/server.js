@@ -117,7 +117,7 @@ async function fetchTallyData() {
       "Paralite",
       "P-TOES",
       "PU-LION",
-      "RELIANCE FOOTWEAR",
+      "Reliance",
       "Safety",
       "School",
       "Solea & Meriva , Mascara",
