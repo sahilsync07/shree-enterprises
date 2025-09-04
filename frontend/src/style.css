@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 text-white font-sans;
+  @apply bg-green-100 text-gray-900 font-sans;
+  /* powder green background */
 }
 
 .table-container {
@@ -16,31 +17,32 @@ table {
 
 th,
 td {
-  @apply border-b border-gray-600 px-2 py-4 align-middle;
+  @apply border-b border-green-300 px-2 py-4 align-middle;
 }
 
 th {
-  @apply bg-gray-500 text-gray-300 font-semibold uppercase text-xs tracking-wide text-center;
+  @apply bg-green-200 text-green-900 font-semibold uppercase text-xs tracking-wide text-center;
 }
 
 tr.group-row {
-  @apply bg-blue-800 text-white font-bold cursor-pointer;
+  @apply bg-green-600 text-white font-bold cursor-pointer;
 }
 
 tr.product-row {
-  @apply bg-gray-800;
+  @apply bg-green-50;
+  /* soft mint row */
 }
 
 button {
-  @apply px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-500 transition-colors;
+  @apply px-4 py-2 bg-green-600 text-white rounded-lg text-sm hover:bg-green-500 transition-colors;
 }
 
 input[type="file"] {
-  @apply text-sm text-gray-300;
+  @apply text-sm text-green-800;
 }
 
 .image-box {
-  @apply w-20 h-28 bg-gray-700 rounded-md overflow-hidden mx-auto relative flex items-center justify-center;
+  @apply w-20 h-28 bg-green-200 rounded-md overflow-hidden mx-auto relative flex items-center justify-center;
 }
 
 .image-box img {
@@ -48,11 +50,11 @@ input[type="file"] {
 }
 
 .image-box div {
-  @apply flex items-center justify-center w-full h-full text-center text-gray-500 text-xs;
+  @apply flex items-center justify-center w-full h-full text-center text-green-700 text-xs;
 }
 
 .go-to-top {
-  @apply p-2 text-sm;
+  @apply p-2 text-sm text-green-700;
 }
 
 @media (max-width: 640px) {
