@@ -586,7 +586,7 @@ export default {
       try {
         const formData = new FormData();
         formData.append("file", this.imageFiles[productName]);
-        formData.append("upload_preset", "sbe-stock");
+        formData.append("upload_preset", "se-stock");
         const response = await fetch(
           "https://api.cloudinary.com/v1_1/dg365ewal/image/upload",
           {
